@@ -1,0 +1,10 @@
+E:\LTI\Day4\Day4App\Day4App\bin\Debug\Day4App.exe.config
+E:\LTI\Day4\Day4App\Day4App\bin\Debug\Day4App.exe
+E:\LTI\Day4\Day4App\Day4App\bin\Debug\Day4App.pdb
+E:\LTI\Day4\Day4App\Day4App\obj\Debug\Day4App.csprojAssemblyReference.cache
+E:\LTI\Day4\Day4App\Day4App\obj\Debug\Day4App.csproj.CoreCompileInputs.cache
+E:\LTI\Day4\Day4App\Day4App\obj\Debug\Day4App.exe
+E:\LTI\Day4\Day4App\Day4App\obj\Debug\Day4App.pdb
+E:\LTI\Day4\Day4App\Day4App\bin\Debug\MyTestDLL.dll
+E:\LTI\Day4\Day4App\Day4App\bin\Debug\MyTestDLL.pdb
+E:\LTI\Day4\Day4App\Day4App\obj\Debug\Day4App.csproj.CopyComplete

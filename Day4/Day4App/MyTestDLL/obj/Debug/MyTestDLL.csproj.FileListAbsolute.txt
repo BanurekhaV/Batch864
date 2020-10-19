@@ -1,0 +1,6 @@
+E:\LTI\Day4\Day4App\MyTestDLL\bin\Debug\MyTestDLL.dll
+E:\LTI\Day4\Day4App\MyTestDLL\bin\Debug\MyTestDLL.pdb
+E:\LTI\Day4\Day4App\MyTestDLL\obj\Debug\MyTestDLL.csprojAssemblyReference.cache
+E:\LTI\Day4\Day4App\MyTestDLL\obj\Debug\MyTestDLL.csproj.CoreCompileInputs.cache
+E:\LTI\Day4\Day4App\MyTestDLL\obj\Debug\MyTestDLL.dll
+E:\LTI\Day4\Day4App\MyTestDLL\obj\Debug\MyTestDLL.pdb

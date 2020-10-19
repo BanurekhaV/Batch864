@@ -1,0 +1,34 @@
+Constant Variable : 
+-One which has to be declared with the constant keyword
+-It has to be assigned a value while declaring
+- eg: const float PI=3.14f;
+-You cannot change the value afterwards
+
+Readonly:
+- Has to be declared with a keyword readonly
+- can assign values while declaring or in the constructor, no where else.
+-eg : class test {
+
+readonly int myvar;
+
+public test()
+{
+myvar=5;}
+}
+-After initialization, you cannot change the value
+
+
+
+Exception :
+
+User defined exception classes should always inherit from ApplicationException base class
+
+Indexers :
+Smart Array or Array of Objects
+
+int[]arr={2,4,5,6,7};
+
+-Indexers are like properties but do not have names like properties
+-indexers can be overloaded
+-they are represented using the 'this' keyword
+

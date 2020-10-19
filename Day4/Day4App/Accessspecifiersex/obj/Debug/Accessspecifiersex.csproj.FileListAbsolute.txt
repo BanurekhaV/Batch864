@@ -1,0 +1,13 @@
+E:\LTI\Day4\Day4App\Accessspecifiersex\obj\Debug\Accessspecifiersex.csprojAssemblyReference.cache
+E:\LTI\Day4\Day4App\Accessspecifiersex\obj\Debug\Accessspecifiersex.csproj.CoreCompileInputs.cache
+E:\LTI\Day4\Day4App\Accessspecifiersex\bin\Debug\Accessspecifiersex.exe.config
+E:\LTI\Day4\Day4App\Accessspecifiersex\bin\Debug\Accessspecifiersex.exe
+E:\LTI\Day4\Day4App\Accessspecifiersex\bin\Debug\Accessspecifiersex.pdb
+E:\LTI\Day4\Day4App\Accessspecifiersex\bin\Debug\Day4App.exe
+E:\LTI\Day4\Day4App\Accessspecifiersex\bin\Debug\MyTestDLL.dll
+E:\LTI\Day4\Day4App\Accessspecifiersex\bin\Debug\Day4App.pdb
+E:\LTI\Day4\Day4App\Accessspecifiersex\bin\Debug\Day4App.exe.config
+E:\LTI\Day4\Day4App\Accessspecifiersex\bin\Debug\MyTestDLL.pdb
+E:\LTI\Day4\Day4App\Accessspecifiersex\obj\Debug\Accessspecifiersex.csproj.CopyComplete
+E:\LTI\Day4\Day4App\Accessspecifiersex\obj\Debug\Accessspecifiersex.exe
+E:\LTI\Day4\Day4App\Accessspecifiersex\obj\Debug\Accessspecifiersex.pdb
