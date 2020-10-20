@@ -1,0 +1,7 @@
+E:\LTI\New folder\Day5App\Day5App\bin\Debug\Day5App.exe.config
+E:\LTI\New folder\Day5App\Day5App\bin\Debug\Day5App.exe
+E:\LTI\New folder\Day5App\Day5App\bin\Debug\Day5App.pdb
+E:\LTI\New folder\Day5App\Day5App\obj\Debug\Day5App.csprojAssemblyReference.cache
+E:\LTI\New folder\Day5App\Day5App\obj\Debug\Day5App.csproj.CoreCompileInputs.cache
+E:\LTI\New folder\Day5App\Day5App\obj\Debug\Day5App.exe
+E:\LTI\New folder\Day5App\Day5App\obj\Debug\Day5App.pdb

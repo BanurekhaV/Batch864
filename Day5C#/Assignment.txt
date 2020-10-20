@@ -1,0 +1,13 @@
+Day 5 Assignment
+
+Create a list of Employees with the following property
+ Empid
+ Empname
+ EmpCity
+ EmpSalary
+
+write a program to do the below
+ a. To display all employee data.
+ b. To display all employees whose salary is greater than 25000.
+ c. To display all employee data who live in Chennai.
+ d. To display all employee data by their ascending order of names.

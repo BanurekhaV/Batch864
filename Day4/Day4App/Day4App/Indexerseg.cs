@@ -24,29 +24,68 @@ namespace Day4App
             }
         }
 
-        /* public string this[float f] //position for the indexer
+         public string this[float f] //position for the indexer
          {
              get
              {
-                 string temp = words[0.1]; // to identify a position of the array
+                string temp = words[1]; // to identify a position of the array
                  return temp;
              }
 
              set
              {
-                 words[x] = value;
+                 words[1] = value;
              }
-         }*/
+         }
   
     static void Main()
     {
-        Indexerseg ie = new Indexerseg();
-        ie[0] = "Hello";
-        ie[1] = "World";
-        ie[2] = "of Indexers";
-        Console.WriteLine(ie[0] + ie[1] + ie[2]);
-        Console.Read();
+            /*Indexerseg ie = new Indexerseg();
+                ie[0.0f] = "5.5F";
+            ie[1] = "10";
+            ie[2] = "of Indexers";
+            Console.WriteLine(ie[0] + ie[1] + ie[2]);*/
+            Flowervase fv = new Flowervase();
+            fv[0] = new Flower("Rose", "Red");
+            fv[1]= new Flower("Lily", "White");
+            fv[2]=new Flower("Hibiscus", "Pink");
+            
+            for(int i=0;i<3;i++)
+            {
+                fv[i].Display();
+            }
+            
+            Console.Read();
     }
 }
 
+    public class Flower
+    {
+        string name;
+        string color;
+
+        public Flower(string name, string color)
+        {
+            this.name = name;
+            this.color = color;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine(name + "  " + "in" + " " + color + "Color");
+
+        }
+    }
+
+    class Flowervase
+    {
+        Flower[] ob = new Flower[5];
+        //indexers for flower
+        public Flower this[int pos]
+        {
+            get { return ob[pos]; }
+            set { ob[pos] = value; }
+        }
+        
+    }
 }
