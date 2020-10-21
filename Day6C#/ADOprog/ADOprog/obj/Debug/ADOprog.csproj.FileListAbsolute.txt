@@ -1,0 +1,7 @@
+E:\LTI\Day6C#\ADOprog\ADOprog\bin\Debug\ADOprog.exe.config
+E:\LTI\Day6C#\ADOprog\ADOprog\bin\Debug\ADOprog.exe
+E:\LTI\Day6C#\ADOprog\ADOprog\bin\Debug\ADOprog.pdb
+E:\LTI\Day6C#\ADOprog\ADOprog\obj\Debug\ADOprog.csprojAssemblyReference.cache
+E:\LTI\Day6C#\ADOprog\ADOprog\obj\Debug\ADOprog.csproj.CoreCompileInputs.cache
+E:\LTI\Day6C#\ADOprog\ADOprog\obj\Debug\ADOprog.exe
+E:\LTI\Day6C#\ADOprog\ADOprog\obj\Debug\ADOprog.pdb

@@ -1,6 +1,6 @@
 Day 5 Assignment
 
-Create a list of Employees with the following property
+1. Create a list of Employees with the following property
  Empid
  Empname
  EmpCity
