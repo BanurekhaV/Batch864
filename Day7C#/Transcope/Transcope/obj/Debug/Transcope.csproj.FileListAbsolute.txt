@@ -1,0 +1,7 @@
+E:\LTI\Day7C#\Transcope\Transcope\bin\Debug\Transcope.exe.config
+E:\LTI\Day7C#\Transcope\Transcope\bin\Debug\Transcope.exe
+E:\LTI\Day7C#\Transcope\Transcope\bin\Debug\Transcope.pdb
+E:\LTI\Day7C#\Transcope\Transcope\obj\Debug\Transcope.csprojAssemblyReference.cache
+E:\LTI\Day7C#\Transcope\Transcope\obj\Debug\Transcope.csproj.CoreCompileInputs.cache
+E:\LTI\Day7C#\Transcope\Transcope\obj\Debug\Transcope.exe
+E:\LTI\Day7C#\Transcope\Transcope\obj\Debug\Transcope.pdb

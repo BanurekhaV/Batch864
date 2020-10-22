@@ -1,0 +1,7 @@
+E:\LTI\Day7C#\DisconnectEg\DisconnectEg\bin\Debug\DisconnectEg.exe.config
+E:\LTI\Day7C#\DisconnectEg\DisconnectEg\bin\Debug\DisconnectEg.exe
+E:\LTI\Day7C#\DisconnectEg\DisconnectEg\bin\Debug\DisconnectEg.pdb
+E:\LTI\Day7C#\DisconnectEg\DisconnectEg\obj\Debug\DisconnectEg.csprojAssemblyReference.cache
+E:\LTI\Day7C#\DisconnectEg\DisconnectEg\obj\Debug\DisconnectEg.csproj.CoreCompileInputs.cache
+E:\LTI\Day7C#\DisconnectEg\DisconnectEg\obj\Debug\DisconnectEg.exe
+E:\LTI\Day7C#\DisconnectEg\DisconnectEg\obj\Debug\DisconnectEg.pdb
