@@ -1,0 +1,7 @@
+E:\LTI\Day8LINQ\LINQ\LINQ\bin\Debug\LINQ.exe.config
+E:\LTI\Day8LINQ\LINQ\LINQ\bin\Debug\LINQ.exe
+E:\LTI\Day8LINQ\LINQ\LINQ\bin\Debug\LINQ.pdb
+E:\LTI\Day8LINQ\LINQ\LINQ\obj\Debug\LINQ.csprojAssemblyReference.cache
+E:\LTI\Day8LINQ\LINQ\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+E:\LTI\Day8LINQ\LINQ\LINQ\obj\Debug\LINQ.exe
+E:\LTI\Day8LINQ\LINQ\LINQ\obj\Debug\LINQ.pdb
