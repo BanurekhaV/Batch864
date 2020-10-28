@@ -1,0 +1,66 @@
+Assignments  
+
+1) Write a program that will find the number of odd and even numbers between 2 given numbers(In a range)
+
+
+2) write a programm that will count the factorials present in a given range 1 1,2,6,24
+
+Demonstrated inverted triangle example
+
+Codility Lesson 1 - Task 1
+
+Brief Intro on Arrays: 
+
+Exercise
+
+3) Find the minimum element in a sorted and rotated array (assume all elements are distinct)	
+
+4) Write a program in C# Sharp to separate odd and even integers in separate arrays. Go to the editor
+Test Data :
+Input the number of elements to be stored in the array :5
+Input 5 elements in the array :
+element - 0 : 25
+element - 1 : 47
+element - 2 : 42
+element - 3 : 56
+element - 4 : 32
+Expected Output:
+The Even elements are:
+42 56 32
+The Odd elements are :
+25 47
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Program
+    {
+        void PrintInvertedTriangle(int n)
+        {
+            for (int i = n; i >0; i--)
+            {
+                for (int j = 0; j < (n-i); j++)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = 0; j < (2*i-1); j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+        }

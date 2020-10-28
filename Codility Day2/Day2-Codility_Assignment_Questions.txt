@@ -1,0 +1,17 @@
+1) https://practice.geeksforgeeks.org/problems/product-array-puzzle/0
+
+2)
+https://leetcode.com/problems/longest-happy-string/
+
+3) Create a program that will find the position of the 3 occurance of a given number in a array
+The array contains int >=0
+The number to be searched is an int >=0
+
+example 
+{4,5,6,7,2,4,6,7,4,6,7},4  result should be 8
+{4,5,6,7,2,4,6,7,4,6,7},2  result should be 0
+{4,5,6,7,2,4,6,7,4,6,7},1  result should be 0
+{},1			   result should be 0
+
+4) https://leetcode.com/problems/kth-largest-element-in-an-array/
+
