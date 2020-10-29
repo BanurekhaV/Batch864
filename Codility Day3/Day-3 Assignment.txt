@@ -1,0 +1,5 @@
+1) Do the exercise of Lesson 4 on Codility PDF
+	4.1. Exercise
+
+2) https://www.geeksforgeeks.org/maximum-even-sum-subsequence/ - This is to Go through the code understand and analyse
+

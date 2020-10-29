@@ -1,0 +1,32 @@
+using System;
+using System.Colelctions.Generic;
+
+---//Hash Map technique for counting elements 
+---
+public static int CountElement(int[] arr)
+{
+  HashSet<int>st= new HashSet<int>();
+foreach(int val in arr)
+{
+st.Add(val);
+}
+int count=0;
+for(int i=0; i<arr.Length;i++)
+{
+if(st.Contains(arr[i]+1))
+{
+count++;
+}
+return count;
+}
+
+---------------------------------------
+Max Counters : Given an Array as below and Integer N value as 5, we need to create 5 element counter
+
+    A[0] = 3    (0,0,1,0,0)
+    A[1] = 4    (0,0,1,1,0)
+    A[2] = 4    (0,0,1,2,0)
+    A[3] = 6    (2,2,2,2,2)
+    A[4] = 1    (3,2,2,2,2)
+    A[5] = 4    (3,2,2,3,2)
+    A[6] = 4    (3,2,2,4,2)
