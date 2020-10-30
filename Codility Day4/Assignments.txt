@@ -1,0 +1,5 @@
+1) https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/
+
+2) https://quabr.com/35097467/largest-bi-valued-slice-in-an-array
+
+3) https://medium.com/@poitevinpm/solution-to-leetcode-problem-978-longest-turbulent-subarray-a0fd74c66040 -- This is to observe, and understand.
