@@ -1,0 +1,100 @@
+//collection sorting
+
+void UnderstandDictionarySort(Dictionary<int,student> pairs)
+{
+Console.WriteLine("Before Set");
+foreach(int item in pairs.keys)
+{
+C.W(pairs[item]);
+}
+C.W("After Sort");
+List<int>sortedkey = pairs.Keys.ToList();
+sortedkey.Sort();
+
+foreach(int item in sortedkey)
+{
+C.W(pairs[item]);
+}
+
+static void Main()
+{
+Dictionary<int,student> stud = new Dictionary<int,student>();
+stud.Add(1, new student(101,"Raja",23546.67f)),
+"
+"
+}
+
+//tuple
+
+void understandingTuple()
+{
+Tuple<int,string,student> tup =new Tuple<int,string,student>();
+}
+
+//stacks n Queues
+
+class StacknQs
+    {
+
+        void UnderstandingStacks()
+        {
+            Stack<int> st = new Stack<int>();
+            st.Push(20);
+            st.Push(12);
+            st.Push(25);
+            st.Push(22);
+            st.Push(50);
+
+            foreach (var item in st)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("Element Popped" + " " + st.Pop());
+            Console.WriteLine("Element peeked" + " " + st.Peek());
+            Console.WriteLine("The number of Element in the stack" + " " + st.Count);
+        }
+
+        void UnderstandingQ()
+        {
+            Queue<string> q = new Queue<string>();
+            q.Enqueue("Aasha");
+            q.Enqueue("Paasha");
+            q.Enqueue("Usha");
+            q.Enqueue("Sirisha");
+            foreach (var item in q)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("Element Popped" + " " + q.Dequeue());
+            Console.WriteLine("Element peeked" + " " + q.Peek());
+            Console.WriteLine("The number of Element in the stack" + " " + q.Count);
+        }
+
+        static void Main()
+        {
+            StacknQs stq = new StacknQs();
+            stq.UnderstandingStacks();
+            stq.UnderstandingQ();
+            Console.Read();
+        }
+    }
+
+//Icomparable
+
+internal class student :IComparable<student>
+    {
+        int Id { get; set; }
+        string Name;
+        float score { get; set; }
+
+        public int CompareTo(student other)
+        {
+            /* if (this.Id == other.Id)
+                 return 0;
+             else return 1;*/
+
+            return this.Id.CompareTo(other.Id);
+        }
+
+    }

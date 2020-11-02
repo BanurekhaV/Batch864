@@ -1,0 +1,9 @@
+1) https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+2) https://leetcode.com/problems/basic-calculator/
+
+3) On Bug Fixing
+
+https://ide.geeksforgeeks.org/2st76oWhQ9  -- Bug Fixing
+
+4) https://quabr.com/35097467/largest-bi-valued-slice-in-an-array
