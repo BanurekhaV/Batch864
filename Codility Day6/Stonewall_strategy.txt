@@ -1,0 +1,20 @@
+The problem is to build a “Manhattan skyline” using the minimum number of rectangle blocks.
+
+The strategy is:
+
+break up each array element into sub-blocks to store on a stack
+for each subsequent array element, check if there are existing blocks on the stack that can create it
+only add new block to the stack if impossible to reuse sub-blocks from stack
+Example
+
+{ 8, 8, 5, 7, 9, 8, 7, 4, 8 } will be broken down into the following 7 unique blocks:
+
+(0,8) //8
+(0,8) //8
+(0,5) //5 (after clearing stack)
+(0,5), (5,7) //7
+(0,5), (5,7), (7,9) //9
+(0,5), (5,7), (7,8) //8 (after popping stack)
+(0,5), (5,7) //7 (after popping stack)
+(0,4) // 4 (after clearing stack)
+(0,4), (4,8) //8

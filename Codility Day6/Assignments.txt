@@ -1,0 +1,5 @@
+1. https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/
+
+2. https://www.geeksforgeeks.org/merging-intervals/
+
+3.http://mfaziz.com/codility-excercise-john-likes-to-travel/ 
