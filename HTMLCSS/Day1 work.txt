@@ -1,0 +1,31 @@
+www.Amazon.in
+
+website domain name - gets converted to an IP address of a machine which is given the name amazon.in
+
+174.34.2.45  10000 requests
+
+174.56.78.9
+
+172. 16.2.17
+
+
+List : Ordered List  1.A,a,I,i
+Unordered List bullets, circles
+Descriptive List 
+
+Styles :
+1. Inline  -Given along with any tag as an attribute
+2. Internal - Given as a style tag inside a head element
+3. External - Given as a link to a seperate file(.css file) with full of styles
+
+Selectors: Are associations to the specific styles
+  1. Tag Selectors - styles given with the tag name. The styles automatically will be applied to those tags
+  2. Id Selectors - Styles defined with an identifier using #followed by a <Name>of the selector
+- use id keyword in the place where you want the style to be applied
+  3. Class Selectors - styles given with a .representation
+  -class styles can be applied to multiple tags
+
+Framesets
+
+collection of frames in the browser is known as frameset
+takes rows or cols as an attribute
