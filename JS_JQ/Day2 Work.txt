@@ -1,0 +1,29 @@
+p.pclass{
+color:"red";
+}
+
+
+
+<p class="pclass">
+
+
+h2{color:red;}
+.c1{color:red;}
+.c2{color:red;}
+
+h2,.c1,.c2{color:red;} // grouping
+
+#top{background-color:orange;}
+#top h1{color:blue; font weight:bold;} //nesting
+#top p{color:green; 2em;}
+
+<p id="top">
+<p>Paragraph for nested styles</p>
+
+<h1>Nested Styles</h1>
+
+//external css. Save the file with css (mystyle1.css) extension
+
+
+Webkit is HTML/CSS web browsers rendering engine
+

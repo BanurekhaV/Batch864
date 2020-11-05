@@ -1,0 +1,73 @@
+<!--<html>
+<head>
+</head>
+<body>
+<h2> What can Java Script Do ?</h2>
+
+<p id="num"> Javascript can change HTML document</p>
+<p id="str">Name : </p>
+<p id="obj">Object : </p>
+
+<script>
+var length = 10;  
+var name = "Johnson"; 
+var ob = { firstname:"John", lastname: "Doe" }; 
+
+document.getElementById("num").innerHTML = length; 
+document.getElementById("str").innerHTML = name; 
+document.getElementById("obj").innerHTML = ob.firstname + " " + ob.lastname; 
+</script>
+
+<button type="button" onclick="document.getElementById('num').innerHTML = length">Click here</button>
+<br/>
+<button type="button" onclick="document.getElementById('num').innerHTML = ob.firstname + ob.lastname">Click Me for Object</button>
+<br/>
+<button type="button" onclick="document.getElementById('num').innerHTML = name">Click Me for Name</button>
+<br/>
+</body>
+</html>-->
+
+<!--Example on User Input -->
+<!--<html>
+<head>
+</head>
+
+<body>
+<input id='userinput' size=40>
+<button onclick='userSubmit()'>Submit</button>
+<br/>
+<div id='result'></div>
+
+<script type='text/javascript'>
+function userSubmit()
+{
+  var UI = document.getElementById('userinput').value;
+document.getElementById('result').innerHTML = 'You typed :' + UI;
+}
+
+</script>
+</body>
+</html>-->
+
+<!-- TagName example-->
+<html>
+<head></head>
+
+<body>
+<script>
+function change()
+{
+   var paras = document.getElementsByTagName("p");
+   document.getElementById("second").innerHTML = paras[1].innerHTML;
+   alert("Value Changed");
+   //document.write("Original Value Changed...");
+}
+
+</script>
+<p id="second"> This is a Javascript Functionality</p>
+<p>Para 2</p>
+<p> Para 3 </p>
+<button onclick="change()">Click to change value</button>
+
+</body>
+</html>

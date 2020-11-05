@@ -1,0 +1,33 @@
+<html>
+<head></head>
+<body>
+Hello World !!
+
+<p>Repeat What ? <input id="saythis" size=30>
+<p>How Many Times? <select id='howmany'>
+<option value=1>1</option>
+<option value=5 selected>5</option>
+<option value=7>7</option>
+<option value=10>10</option>
+</select>
+<button onclick='doLoop()'>Do It!</button>
+<div id='results'></div>
+
+<script>
+function doLoop()
+{
+   var repeat = document.getElementById('saythis').value;
+   var maxloop = document.getElementById('howmany').value;
+   var str= ' ';
+   for(var i=1; (i<=maxloop); i++)
+   {
+     str=str+i+':'+repeat+' <br/>';
+    }
+   document.getElementById('results').innerHTML = str;
+}
+
+
+</script>
+
+</body>
+</html>
