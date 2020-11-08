@@ -1,0 +1,31 @@
+<p>templatedform works!</p>
+<div>
+    <!-- no validate is to disable browser validation-->
+    <form #customerform="ngForm" (ngSubmit)="onRegister(customerform)" novalidate>
+        <p>
+            <label for="csname">Enter Name</label>
+    <input type="text" name="csname" [(ngModel)]=cust.custname #cname="ngModel" required minlength="5">
+    Touched: {{cname.touched}}
+     Dirty:{{cname.dirty}}
+     Pristine:{{cname.pristine}}   
+
+  </p>
+<div *ngIf="!cname.valid && (cname.dirty || cname.touched)" class="error">
+    <div *ngIf="cname.errors.required"></div>
+    <small class="text-danger">Customer Name is required</small>
+</div>
+<div *ngIf="cname.errors.minlength">
+   <small class="text-danger"> Name should be of min required Length
+    {{cname.errors.minlength?.requiredLength}}</small>
+</div>
+<p>
+    <label for="mage">Enter Age</label>
+    <input type="numbr" name="ccage" [(ngModel)]=cust.age #age=ngModel required>
+</p>
+<div *ngIf="!age?.valid &&(age?.dirty || age?.touched)" class="error">
+    <div *ngIf="age.errors.required">
+        <small clas="text-danger">Age is required</small>
+    </div>
+</div>
+    </form>
+</div>

@@ -1,0 +1,17 @@
+<p>eventbinding works!</p>
+<span class="glyphicon glyphicon-thumbs-up"(click)="thumbsUp()"></span>
+{{count}}
+<br>
+<span class="glyphicon glyphicon-thumbs-down"(click)="thumbsDown()"></span>
+{{ctr}}
+<hr>
+<span [class]="clsname" (click)="changeStar()"></span>
+<hr>
+<h2>Click the Button to welcome</h2>
+
+<button class="btn btn-primary" (click)="welcomeMsg()">Click me </button>
+<hr>
+<h2>Template reference variables #</h2>
+<input type="text" #uname>
+<button class="btn btn-success" (click)=displayfullName(uname)>Display Full Name</button>
+{{fname}}
