@@ -1,0 +1,9 @@
+1.
+a) Create a component called productList which will be responsible to show all the products in a tabular manner from the services.ts
+b) In the Html file add a button to buy the product. on click of this button, call a method called addtoCart(prod) with the product details.
+c) in the addtoCart(prod) method, check if the product already exists. If no push the complete product. if yes, just add increment the qty in the cart, and simultaneously decrement the qty in productList ( All through service methods)
+
+2. 
+a) create a login component(reactive) to validate the user and the allow to buy the products
+b) This component should be loaded, whenever a user tries to buy a product without logging in.
+c) Validate the user credentials and take him to productlist component if valid, else give a proper message.

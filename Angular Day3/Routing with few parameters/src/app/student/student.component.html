@@ -1,0 +1,9 @@
+<p>Student Details</p>
+<div *ngFor="let stud of students">
+ <a routerLink="/studdetails/{{stud.id}}/{{stud.name}}">Id: {{stud.id}}, Name:{{stud.name}}</a>
+
+</div>
+<hr>
+<p> Currently Selected Student Details :</p>
+<P>ID: {{student.id}}</P>
+<p>Name : {{student.name}}</p>
