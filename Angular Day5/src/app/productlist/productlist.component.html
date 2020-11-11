@@ -1,0 +1,23 @@
+<p>productlist works!</p>
+<div class="container">
+    <h1>Product Lists</h1>
+    <button type="button" (click)="getProductDetails()">Get Products</button>
+    <div class=table-responsive>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Product Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of products">
+                    <td>{{p.id}}</td>
+                    <td>{{p.desc}}</td>
+                    <td>{{p.price}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
