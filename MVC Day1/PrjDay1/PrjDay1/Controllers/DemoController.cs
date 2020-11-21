@@ -37,6 +37,7 @@ namespace PrjDay1.Controllers
         }
 
         //empty result not for display
+        [NonAction]
         public EmptyResult EmptyMethod()
         {
             int amt = 5000;
@@ -55,6 +56,56 @@ namespace PrjDay1.Controllers
             e.Name = "Sunil";
             return Json(e, JsonRequestBehavior.AllowGet);
 
+        }
+
+        public ContentResult DefLinq()
+        {
+            var employee = new List<Employee>
+            {
+                new Employee{Id=1,Age=20,Name="AA"},
+            new Employee{Id=2,Age=25,Name="BB"},
+            new Employee{Id=3,Age=26,Name="CC"}
+            };
+            
+            var emp = employee.Where(x => x.Age < 25).Select(y => y.Name); // deffered Execution
+
+            // new addition to the collection
+            employee.Add(new Employee { Id = 4, Age = 23, Name = "DD" }); 
+           
+            //execution of the query takes place here(lazy loading) and so, all the values in the 
+            //collection including additions will be considered and executed
+            foreach(var e in emp)
+            {
+                Response.Write(e);
+
+            }
+            return Content("All good");
+        }
+
+        //immediate Execution of the above
+
+        public ActionResult ImmLinq()
+        {
+            var employee = new List<Employee>
+            {
+                new Employee{Id=1,Age=20,Name="AA"},
+            new Employee{Id=2,Age=25,Name="BB"},
+            new Employee{Id=3,Age=26,Name="CC"}
+            };
+            //immediate execution of the query and results converted to a list (early loading)
+            var emp = employee.Where(x => x.Age < 25).Select(y => y.Name).ToList(); 
+
+            //new addition to the collection, but not considered, since the query is already
+            //executed 
+            employee.Add(new Employee { Id = 4, Age = 23, Name = "DD" });
+
+            //Just Iteration and Display of results
+            foreach (var e in emp)
+            {
+                Response.Write(e);
+
+            }
+            return Content("All good");
         }
         
     }
